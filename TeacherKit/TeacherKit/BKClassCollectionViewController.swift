@@ -8,19 +8,29 @@
 
 import UIKit
 
-class BKClassCollectionViewController: UIViewController {
+class BKClassCollectionViewController: BKViewController {
+    @IBOutlet weak var collectionView: UICollectionView!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func initializeUI() {
+        super.initializeUI()
+        
+        // Setup collection view
     }
     
+    override func finalizeUI() {
+        super.finalizeUI()
+        
+    }
+    
+    override func wireViewModel() {
+        super.wireViewModel()
+        
+    }
+    
+    override func setupCommands() {
+        super.setupCommands()
+        
+    }
 
     /*
     // MARK: - Navigation

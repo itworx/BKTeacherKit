@@ -15,6 +15,47 @@
 		7F4A54C319C37BE700F8759B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A54C119C37BE700F8759B /* LaunchScreen.xib */; };
 		7F4A54CF19C37BE700F8759B /* TeacherKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A54CE19C37BE700F8759B /* TeacherKitTests.swift */; };
 		7F4A54F119C3843800F8759B /* BKClassCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A54F019C3843800F8759B /* BKClassCollectionViewController.swift */; };
+		7F87436519C3A57C00C06E73 /* BKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87436419C3A57C00C06E73 /* BKViewController.swift */; };
+		7F87436D19C3A6C400C06E73 /* BKViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87436C19C3A6C400C06E73 /* BKViewModel.swift */; };
+		7F87436F19C499F500C06E73 /* BKClassCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F87436E19C499F500C06E73 /* BKClassCollectionCell.xib */; };
+		7F87437119C49A6800C06E73 /* BKClassCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87437019C49A6800C06E73 /* BKClassCollectionCell.swift */; };
+		7FEA9D5C19C4B5910050D5BF /* BKCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D5B19C4B5910050D5BF /* BKCollectionViewDataSource.swift */; };
+		7FEA9D5E19C4B8430050D5BF /* BKItemCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D5D19C4B8430050D5BF /* BKItemCollectionViewModel.swift */; };
+		7FEA9D6019C4B8BD0050D5BF /* BKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D5F19C4B8BD0050D5BF /* BKManager.swift */; };
+		7FEA9D6219C4B96A0050D5BF /* BKCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D6119C4B96A0050D5BF /* BKCoreDataManager.swift */; };
+		7FEA9D6819C522C00050D5BF /* TeacherKit.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D6719C522C00050D5BF /* TeacherKit.xcdatamodel */; };
+		7FEA9D6919C522C00050D5BF /* TeacherKit.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D6719C522C00050D5BF /* TeacherKit.xcdatamodel */; };
+		7FEA9D6C19C522FA0050D5BF /* TKSeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D6B19C522FA0050D5BF /* TKSeat.swift */; };
+		7FEA9D6D19C522FA0050D5BF /* TKSeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D6B19C522FA0050D5BF /* TKSeat.swift */; };
+		7FEA9D6F19C522FC0050D5BF /* TKBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D6E19C522FC0050D5BF /* TKBehavior.swift */; };
+		7FEA9D7019C522FC0050D5BF /* TKBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D6E19C522FC0050D5BF /* TKBehavior.swift */; };
+		7FEA9D7219C522FC0050D5BF /* TKGradeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D7119C522FC0050D5BF /* TKGradeCategory.swift */; };
+		7FEA9D7319C522FC0050D5BF /* TKGradeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D7119C522FC0050D5BF /* TKGradeCategory.swift */; };
+		7FEA9D7519C522FC0050D5BF /* TKAccessCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D7419C522FC0050D5BF /* TKAccessCode.swift */; };
+		7FEA9D7619C522FC0050D5BF /* TKAccessCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D7419C522FC0050D5BF /* TKAccessCode.swift */; };
+		7FEA9D7819C522FD0050D5BF /* TKGradableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D7719C522FD0050D5BF /* TKGradableItem.swift */; };
+		7FEA9D7919C522FD0050D5BF /* TKGradableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D7719C522FD0050D5BF /* TKGradableItem.swift */; };
+		7FEA9D7B19C522FD0050D5BF /* TKBehaviorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D7A19C522FD0050D5BF /* TKBehaviorType.swift */; };
+		7FEA9D7C19C522FD0050D5BF /* TKBehaviorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D7A19C522FD0050D5BF /* TKBehaviorType.swift */; };
+		7FEA9D7E19C522FD0050D5BF /* TKGrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D7D19C522FD0050D5BF /* TKGrade.swift */; };
+		7FEA9D7F19C522FD0050D5BF /* TKGrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D7D19C522FD0050D5BF /* TKGrade.swift */; };
+		7FEA9D8119C522FD0050D5BF /* TKAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D8019C522FD0050D5BF /* TKAttachment.swift */; };
+		7FEA9D8219C522FD0050D5BF /* TKAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D8019C522FD0050D5BF /* TKAttachment.swift */; };
+		7FEA9D8419C522FD0050D5BF /* TKAttendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D8319C522FD0050D5BF /* TKAttendance.swift */; };
+		7FEA9D8519C522FD0050D5BF /* TKAttendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D8319C522FD0050D5BF /* TKAttendance.swift */; };
+		7FEA9D8719C522FD0050D5BF /* TKAttendanceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D8619C522FD0050D5BF /* TKAttendanceType.swift */; };
+		7FEA9D8819C522FD0050D5BF /* TKAttendanceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D8619C522FD0050D5BF /* TKAttendanceType.swift */; };
+		7FEA9D8A19C522FD0050D5BF /* TKClassroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D8919C522FD0050D5BF /* TKClassroom.swift */; };
+		7FEA9D8B19C522FD0050D5BF /* TKClassroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D8919C522FD0050D5BF /* TKClassroom.swift */; };
+		7FEA9D8D19C522FE0050D5BF /* TKStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D8C19C522FE0050D5BF /* TKStudent.swift */; };
+		7FEA9D8E19C522FE0050D5BF /* TKStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D8C19C522FE0050D5BF /* TKStudent.swift */; };
+		7FEA9D9019C522FE0050D5BF /* TKGradeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D8F19C522FE0050D5BF /* TKGradeType.swift */; };
+		7FEA9D9119C522FE0050D5BF /* TKGradeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D8F19C522FE0050D5BF /* TKGradeType.swift */; };
+		7FEA9D9319C522FE0050D5BF /* TKConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D9219C522FE0050D5BF /* TKConfiguration.swift */; };
+		7FEA9D9419C522FE0050D5BF /* TKConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D9219C522FE0050D5BF /* TKConfiguration.swift */; };
+		7FEA9D9619C522FE0050D5BF /* TKLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D9519C522FE0050D5BF /* TKLesson.swift */; };
+		7FEA9D9719C522FE0050D5BF /* TKLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D9519C522FE0050D5BF /* TKLesson.swift */; };
+		9F6685FE13A2475C99FA9C79 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D70BCCA889E44B8B1C6326B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +69,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7AF9C85386AC4A9F9A72BDF9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		7D70BCCA889E44B8B1C6326B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4A54B119C37BE700F8759B /* TeacherKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeacherKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4A54B519C37BE700F8759B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F4A54B619C37BE700F8759B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +83,31 @@
 		7F4A54CD19C37BE700F8759B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F4A54CE19C37BE700F8759B /* TeacherKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherKitTests.swift; sourceTree = "<group>"; };
 		7F4A54F019C3843800F8759B /* BKClassCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKClassCollectionViewController.swift; sourceTree = "<group>"; };
+		7F87436419C3A57C00C06E73 /* BKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKViewController.swift; sourceTree = "<group>"; };
+		7F87436C19C3A6C400C06E73 /* BKViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKViewModel.swift; sourceTree = "<group>"; };
+		7F87436E19C499F500C06E73 /* BKClassCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BKClassCollectionCell.xib; sourceTree = "<group>"; };
+		7F87437019C49A6800C06E73 /* BKClassCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKClassCollectionCell.swift; sourceTree = "<group>"; };
+		7FCBA37B19C5254A0040481C /* TeacherKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeacherKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		7FEA9D5B19C4B5910050D5BF /* BKCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		7FEA9D5D19C4B8430050D5BF /* BKItemCollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKItemCollectionViewModel.swift; sourceTree = "<group>"; };
+		7FEA9D5F19C4B8BD0050D5BF /* BKManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKManager.swift; sourceTree = "<group>"; };
+		7FEA9D6119C4B96A0050D5BF /* BKCoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKCoreDataManager.swift; sourceTree = "<group>"; };
+		7FEA9D6719C522C00050D5BF /* TeacherKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TeacherKit.xcdatamodel; sourceTree = "<group>"; };
+		7FEA9D6B19C522FA0050D5BF /* TKSeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKSeat.swift; sourceTree = "<group>"; };
+		7FEA9D6E19C522FC0050D5BF /* TKBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKBehavior.swift; sourceTree = "<group>"; };
+		7FEA9D7119C522FC0050D5BF /* TKGradeCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKGradeCategory.swift; sourceTree = "<group>"; };
+		7FEA9D7419C522FC0050D5BF /* TKAccessCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKAccessCode.swift; sourceTree = "<group>"; };
+		7FEA9D7719C522FD0050D5BF /* TKGradableItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKGradableItem.swift; sourceTree = "<group>"; };
+		7FEA9D7A19C522FD0050D5BF /* TKBehaviorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKBehaviorType.swift; sourceTree = "<group>"; };
+		7FEA9D7D19C522FD0050D5BF /* TKGrade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKGrade.swift; sourceTree = "<group>"; };
+		7FEA9D8019C522FD0050D5BF /* TKAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKAttachment.swift; sourceTree = "<group>"; };
+		7FEA9D8319C522FD0050D5BF /* TKAttendance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKAttendance.swift; sourceTree = "<group>"; };
+		7FEA9D8619C522FD0050D5BF /* TKAttendanceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKAttendanceType.swift; sourceTree = "<group>"; };
+		7FEA9D8919C522FD0050D5BF /* TKClassroom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKClassroom.swift; sourceTree = "<group>"; };
+		7FEA9D8C19C522FE0050D5BF /* TKStudent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKStudent.swift; sourceTree = "<group>"; };
+		7FEA9D8F19C522FE0050D5BF /* TKGradeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKGradeType.swift; sourceTree = "<group>"; };
+		7FEA9D9219C522FE0050D5BF /* TKConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKConfiguration.swift; sourceTree = "<group>"; };
+		7FEA9D9519C522FE0050D5BF /* TKLesson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKLesson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6685FE13A2475C99FA9C79 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +135,8 @@
 				7F4A54B319C37BE700F8759B /* TeacherKit */,
 				7F4A54CB19C37BE700F8759B /* TeacherKitTests */,
 				7F4A54B219C37BE700F8759B /* Products */,
+				7AF9C85386AC4A9F9A72BDF9 /* Pods.xcconfig */,
+				B4D5490CD5BC45A0A6406686 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +202,9 @@
 		7F4A54D919C382C400F8759B /* Verticals */ = {
 			isa = PBXGroup;
 			children = (
+				7FCBA37919C525160040481C /* Utilities */,
+				7F87436B19C3A60900C06E73 /* BaseClasses */,
+				7F87436619C3A58200C06E73 /* Data */,
 			);
 			name = Verticals;
 			sourceTree = "<group>";
@@ -163,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				7F4A54E319C3836800F8759B /* Helpers */,
+				7F87437219C49FE400C06E73 /* Layouts */,
 				7F4A54E219C3834D00F8759B /* Datasources */,
 				7F4A54E119C3833E00F8759B /* Delegates */,
 				7F4A54E019C3831300F8759B /* Views */,
@@ -183,6 +258,7 @@
 		7F4A54DF19C3830C00F8759B /* Nibs */ = {
 			isa = PBXGroup;
 			children = (
+				7F87436E19C499F500C06E73 /* BKClassCollectionCell.xib */,
 			);
 			name = Nibs;
 			sourceTree = "<group>";
@@ -190,6 +266,7 @@
 		7F4A54E019C3831300F8759B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7F87437019C49A6800C06E73 /* BKClassCollectionCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -294,6 +371,121 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
+		7F87436619C3A58200C06E73 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7FEA9D6A19C522E40050D5BF /* Models */,
+				7FEA9D6719C522C00050D5BF /* TeacherKit.xcdatamodel */,
+				7FEA9D6119C4B96A0050D5BF /* BKCoreDataManager.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		7F87436819C3A59300C06E73 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F87436419C3A57C00C06E73 /* BKViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7F87436919C3A5E100C06E73 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7FEA9D5F19C4B8BD0050D5BF /* BKManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		7F87436A19C3A5E800C06E73 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7F87436C19C3A6C400C06E73 /* BKViewModel.swift */,
+				7FEA9D5D19C4B8430050D5BF /* BKItemCollectionViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		7F87436B19C3A60900C06E73 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				7FEA9D5A19C4B57B0050D5BF /* Delegates */,
+				7FEA9D5919C4B5740050D5BF /* Datasources */,
+				7F87436819C3A59300C06E73 /* ViewControllers */,
+				7F87436A19C3A5E800C06E73 /* ViewModels */,
+				7F87436919C3A5E100C06E73 /* Managers */,
+			);
+			name = BaseClasses;
+			sourceTree = "<group>";
+		};
+		7F87437219C49FE400C06E73 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Layouts;
+			sourceTree = "<group>";
+		};
+		7FCBA37919C525160040481C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7FCBA37A19C5251D0040481C /* BridgingHeader */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		7FCBA37A19C5251D0040481C /* BridgingHeader */ = {
+			isa = PBXGroup;
+			children = (
+				7FCBA37B19C5254A0040481C /* TeacherKit-Bridging-Header.h */,
+			);
+			name = BridgingHeader;
+			sourceTree = "<group>";
+		};
+		7FEA9D5919C4B5740050D5BF /* Datasources */ = {
+			isa = PBXGroup;
+			children = (
+				7FEA9D5B19C4B5910050D5BF /* BKCollectionViewDataSource.swift */,
+			);
+			name = Datasources;
+			sourceTree = "<group>";
+		};
+		7FEA9D5A19C4B57B0050D5BF /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		7FEA9D6A19C522E40050D5BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7FEA9D9519C522FE0050D5BF /* TKLesson.swift */,
+				7FEA9D9219C522FE0050D5BF /* TKConfiguration.swift */,
+				7FEA9D8F19C522FE0050D5BF /* TKGradeType.swift */,
+				7FEA9D8C19C522FE0050D5BF /* TKStudent.swift */,
+				7FEA9D8919C522FD0050D5BF /* TKClassroom.swift */,
+				7FEA9D8619C522FD0050D5BF /* TKAttendanceType.swift */,
+				7FEA9D8319C522FD0050D5BF /* TKAttendance.swift */,
+				7FEA9D8019C522FD0050D5BF /* TKAttachment.swift */,
+				7FEA9D7D19C522FD0050D5BF /* TKGrade.swift */,
+				7FEA9D7A19C522FD0050D5BF /* TKBehaviorType.swift */,
+				7FEA9D7719C522FD0050D5BF /* TKGradableItem.swift */,
+				7FEA9D7419C522FC0050D5BF /* TKAccessCode.swift */,
+				7FEA9D7119C522FC0050D5BF /* TKGradeCategory.swift */,
+				7FEA9D6E19C522FC0050D5BF /* TKBehavior.swift */,
+				7FEA9D6B19C522FA0050D5BF /* TKSeat.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B4D5490CD5BC45A0A6406686 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D70BCCA889E44B8B1C6326B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -301,9 +493,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F4A54D219C37BE700F8759B /* Build configuration list for PBXNativeTarget "TeacherKit" */;
 			buildPhases = (
+				6032341623EE491D8AC71A87 /* Check Pods Manifest.lock */,
 				7F4A54AD19C37BE700F8759B /* Sources */,
 				7F4A54AE19C37BE700F8759B /* Frameworks */,
 				7F4A54AF19C37BE700F8759B /* Resources */,
+				96614D8F7C3D42069EEDA91B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -375,6 +569,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F4A54BE19C37BE700F8759B /* Main.storyboard in Resources */,
+				7F87436F19C499F500C06E73 /* BKClassCollectionCell.xib in Resources */,
 				7F4A54C319C37BE700F8759B /* LaunchScreen.xib in Resources */,
 				7F4A54C019C37BE700F8759B /* Images.xcassets in Resources */,
 			);
@@ -389,15 +584,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6032341623EE491D8AC71A87 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96614D8F7C3D42069EEDA91B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7F4A54AD19C37BE700F8759B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FEA9D8D19C522FE0050D5BF /* TKStudent.swift in Sources */,
+				7FEA9D6019C4B8BD0050D5BF /* BKManager.swift in Sources */,
+				7FEA9D8119C522FD0050D5BF /* TKAttachment.swift in Sources */,
+				7F87436519C3A57C00C06E73 /* BKViewController.swift in Sources */,
+				7FEA9D7B19C522FD0050D5BF /* TKBehaviorType.swift in Sources */,
+				7FEA9D9319C522FE0050D5BF /* TKConfiguration.swift in Sources */,
 				7F4A54BB19C37BE700F8759B /* SecondViewController.swift in Sources */,
+				7FEA9D8719C522FD0050D5BF /* TKAttendanceType.swift in Sources */,
+				7FEA9D9019C522FE0050D5BF /* TKGradeType.swift in Sources */,
+				7FEA9D6219C4B96A0050D5BF /* BKCoreDataManager.swift in Sources */,
 				7F4A54B719C37BE700F8759B /* AppDelegate.swift in Sources */,
+				7FEA9D8419C522FD0050D5BF /* TKAttendance.swift in Sources */,
 				7F4A54F119C3843800F8759B /* BKClassCollectionViewController.swift in Sources */,
+				7FEA9D6F19C522FC0050D5BF /* TKBehavior.swift in Sources */,
+				7FEA9D6C19C522FA0050D5BF /* TKSeat.swift in Sources */,
+				7FEA9D5C19C4B5910050D5BF /* BKCollectionViewDataSource.swift in Sources */,
+				7FEA9D7519C522FC0050D5BF /* TKAccessCode.swift in Sources */,
 				7F4A54B919C37BE700F8759B /* FirstViewController.swift in Sources */,
+				7FEA9D9619C522FE0050D5BF /* TKLesson.swift in Sources */,
+				7FEA9D8A19C522FD0050D5BF /* TKClassroom.swift in Sources */,
+				7FEA9D7819C522FD0050D5BF /* TKGradableItem.swift in Sources */,
+				7FEA9D5E19C4B8430050D5BF /* BKItemCollectionViewModel.swift in Sources */,
+				7F87436D19C3A6C400C06E73 /* BKViewModel.swift in Sources */,
+				7FEA9D7219C522FC0050D5BF /* TKGradeCategory.swift in Sources */,
+				7FEA9D6819C522C00050D5BF /* TeacherKit.xcdatamodel in Sources */,
+				7FEA9D7E19C522FD0050D5BF /* TKGrade.swift in Sources */,
+				7F87437119C49A6800C06E73 /* BKClassCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +656,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FEA9D7C19C522FD0050D5BF /* TKBehaviorType.swift in Sources */,
+				7FEA9D8219C522FD0050D5BF /* TKAttachment.swift in Sources */,
+				7FEA9D9119C522FE0050D5BF /* TKGradeType.swift in Sources */,
+				7FEA9D9719C522FE0050D5BF /* TKLesson.swift in Sources */,
+				7FEA9D8B19C522FD0050D5BF /* TKClassroom.swift in Sources */,
+				7FEA9D8519C522FD0050D5BF /* TKAttendance.swift in Sources */,
+				7FEA9D6D19C522FA0050D5BF /* TKSeat.swift in Sources */,
+				7FEA9D7619C522FC0050D5BF /* TKAccessCode.swift in Sources */,
+				7FEA9D9419C522FE0050D5BF /* TKConfiguration.swift in Sources */,
+				7FEA9D6919C522C00050D5BF /* TeacherKit.xcdatamodel in Sources */,
+				7FEA9D7319C522FC0050D5BF /* TKGradeCategory.swift in Sources */,
+				7FEA9D7019C522FC0050D5BF /* TKBehavior.swift in Sources */,
 				7F4A54CF19C37BE700F8759B /* TeacherKitTests.swift in Sources */,
+				7FEA9D8819C522FD0050D5BF /* TKAttendanceType.swift in Sources */,
+				7FEA9D7919C522FD0050D5BF /* TKGradableItem.swift in Sources */,
+				7FEA9D8E19C522FE0050D5BF /* TKStudent.swift in Sources */,
+				7FEA9D7F19C522FD0050D5BF /* TKGrade.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,21 +787,29 @@
 		};
 		7F4A54D319C37BE700F8759B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF9C85386AC4A9F9A72BDF9 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TeacherKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TeacherKit/TeacherKit-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		7F4A54D419C37BE700F8759B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF9C85386AC4A9F9A72BDF9 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TeacherKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TeacherKit/TeacherKit-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -591,6 +866,7 @@
 				7F4A54D419C37BE700F8759B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F4A54D519C37BE700F8759B /* Build configuration list for PBXNativeTarget "TeacherKitTests" */ = {
 			isa = XCConfigurationList;
@@ -599,6 +875,7 @@
 				7F4A54D719C37BE700F8759B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

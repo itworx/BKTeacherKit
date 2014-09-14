@@ -1,0 +1,10 @@
+platform :ios, "7.0"
+
+pod "MagicalRecord"
+pod "pop"
+pod "Parse-iOS"
+
+
+#target :TeacherKit, :exclusive => true do
+  # pod 'Kiwi'
+#end

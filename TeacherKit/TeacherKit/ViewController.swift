@@ -1,5 +1,5 @@
 //
-//  BKViewController.swift
+//  ViewController.swift
 //  TeacherKit
 //
 //  Created by Ramy Medhat on 2014-09-12.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-class BKViewController: UIViewController {
-    var viewModel : BKViewModel?
+class ViewController: UIViewController {
+    var viewModel : ViewModel?
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,5 +1,5 @@
 //
-//  BKManager.swift
+//  Manager.swift
 //  TeacherKit
 //
 //  Created by Ramy Medhat on 2014-09-13.
@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class BKManager: NSObject {
+class Manager: NSObject {
     private var context : NSManagedObjectContext
     
     init(aContext: NSManagedObjectContext) {
@@ -17,6 +17,6 @@ class BKManager: NSObject {
     }
     
     override init() {
-        context = BKCoreDataManager.instance.newChildContext()
+        context = CoreDataManager.instance.newChildContext()
     }
 }

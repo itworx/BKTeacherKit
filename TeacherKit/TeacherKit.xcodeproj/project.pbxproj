@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37E41D897F05457281A142E2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D70BCCA889E44B8B1C6326B /* libPods.a */; };
 		7F4A54B719C37BE700F8759B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A54B619C37BE700F8759B /* AppDelegate.swift */; };
 		7F4A54B919C37BE700F8759B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A54B819C37BE700F8759B /* FirstViewController.swift */; };
 		7F4A54BB19C37BE700F8759B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A54BA19C37BE700F8759B /* SecondViewController.swift */; };
@@ -14,15 +15,15 @@
 		7F4A54C019C37BE700F8759B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A54BF19C37BE700F8759B /* Images.xcassets */; };
 		7F4A54C319C37BE700F8759B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A54C119C37BE700F8759B /* LaunchScreen.xib */; };
 		7F4A54CF19C37BE700F8759B /* TeacherKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A54CE19C37BE700F8759B /* TeacherKitTests.swift */; };
-		7F4A54F119C3843800F8759B /* BKClassCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A54F019C3843800F8759B /* BKClassCollectionViewController.swift */; };
-		7F87436519C3A57C00C06E73 /* BKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87436419C3A57C00C06E73 /* BKViewController.swift */; };
-		7F87436D19C3A6C400C06E73 /* BKViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87436C19C3A6C400C06E73 /* BKViewModel.swift */; };
-		7F87436F19C499F500C06E73 /* BKClassCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F87436E19C499F500C06E73 /* BKClassCollectionCell.xib */; };
-		7F87437119C49A6800C06E73 /* BKClassCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87437019C49A6800C06E73 /* BKClassCollectionCell.swift */; };
-		7FEA9D5C19C4B5910050D5BF /* BKCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D5B19C4B5910050D5BF /* BKCollectionViewDataSource.swift */; };
-		7FEA9D5E19C4B8430050D5BF /* BKItemCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D5D19C4B8430050D5BF /* BKItemCollectionViewModel.swift */; };
-		7FEA9D6019C4B8BD0050D5BF /* BKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D5F19C4B8BD0050D5BF /* BKManager.swift */; };
-		7FEA9D6219C4B96A0050D5BF /* BKCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D6119C4B96A0050D5BF /* BKCoreDataManager.swift */; };
+		7F4A54F119C3843800F8759B /* ClassCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A54F019C3843800F8759B /* ClassCollectionViewController.swift */; };
+		7F87436519C3A57C00C06E73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87436419C3A57C00C06E73 /* ViewController.swift */; };
+		7F87436D19C3A6C400C06E73 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87436C19C3A6C400C06E73 /* ViewModel.swift */; };
+		7F87436F19C499F500C06E73 /* ClassCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F87436E19C499F500C06E73 /* ClassCollectionCell.xib */; };
+		7F87437119C49A6800C06E73 /* ClassCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87437019C49A6800C06E73 /* ClassCollectionCell.swift */; };
+		7FEA9D5C19C4B5910050D5BF /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D5B19C4B5910050D5BF /* CollectionViewDataSource.swift */; };
+		7FEA9D5E19C4B8430050D5BF /* ItemCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D5D19C4B8430050D5BF /* ItemCollectionViewModel.swift */; };
+		7FEA9D6019C4B8BD0050D5BF /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D5F19C4B8BD0050D5BF /* Manager.swift */; };
+		7FEA9D6219C4B96A0050D5BF /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D6119C4B96A0050D5BF /* CoreDataManager.swift */; };
 		7FEA9D6819C522C00050D5BF /* TeacherKit.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D6719C522C00050D5BF /* TeacherKit.xcdatamodel */; };
 		7FEA9D6919C522C00050D5BF /* TeacherKit.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D6719C522C00050D5BF /* TeacherKit.xcdatamodel */; };
 		7FEA9D6C19C522FA0050D5BF /* TKSeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D6B19C522FA0050D5BF /* TKSeat.swift */; };
@@ -55,7 +56,7 @@
 		7FEA9D9419C522FE0050D5BF /* TKConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D9219C522FE0050D5BF /* TKConfiguration.swift */; };
 		7FEA9D9619C522FE0050D5BF /* TKLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D9519C522FE0050D5BF /* TKLesson.swift */; };
 		7FEA9D9719C522FE0050D5BF /* TKLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D9519C522FE0050D5BF /* TKLesson.swift */; };
-		9F6685FE13A2475C99FA9C79 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D70BCCA889E44B8B1C6326B /* libPods.a */; };
+		F3CD634439F740359B8A3A39 /* libPods-TeacherKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45993150B951487B861EBBB0 /* libPods-TeacherKitTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45993150B951487B861EBBB0 /* libPods-TeacherKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TeacherKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF9C85386AC4A9F9A72BDF9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		7D70BCCA889E44B8B1C6326B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4A54B119C37BE700F8759B /* TeacherKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeacherKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,16 +84,17 @@
 		7F4A54C819C37BE700F8759B /* TeacherKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeacherKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4A54CD19C37BE700F8759B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F4A54CE19C37BE700F8759B /* TeacherKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherKitTests.swift; sourceTree = "<group>"; };
-		7F4A54F019C3843800F8759B /* BKClassCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKClassCollectionViewController.swift; sourceTree = "<group>"; };
-		7F87436419C3A57C00C06E73 /* BKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKViewController.swift; sourceTree = "<group>"; };
-		7F87436C19C3A6C400C06E73 /* BKViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKViewModel.swift; sourceTree = "<group>"; };
-		7F87436E19C499F500C06E73 /* BKClassCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BKClassCollectionCell.xib; sourceTree = "<group>"; };
-		7F87437019C49A6800C06E73 /* BKClassCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKClassCollectionCell.swift; sourceTree = "<group>"; };
+		7F4A54F019C3843800F8759B /* ClassCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassCollectionViewController.swift; sourceTree = "<group>"; };
+		7F87436419C3A57C00C06E73 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F87436C19C3A6C400C06E73 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		7F87436E19C499F500C06E73 /* ClassCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassCollectionCell.xib; sourceTree = "<group>"; };
+		7F87437019C49A6800C06E73 /* ClassCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassCollectionCell.swift; sourceTree = "<group>"; };
 		7FCBA37B19C5254A0040481C /* TeacherKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeacherKit-Bridging-Header.h"; sourceTree = "<group>"; };
-		7FEA9D5B19C4B5910050D5BF /* BKCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKCollectionViewDataSource.swift; sourceTree = "<group>"; };
-		7FEA9D5D19C4B8430050D5BF /* BKItemCollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKItemCollectionViewModel.swift; sourceTree = "<group>"; };
-		7FEA9D5F19C4B8BD0050D5BF /* BKManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKManager.swift; sourceTree = "<group>"; };
-		7FEA9D6119C4B96A0050D5BF /* BKCoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKCoreDataManager.swift; sourceTree = "<group>"; };
+		7FCBA38919C52E440040481C /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		7FEA9D5B19C4B5910050D5BF /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
+		7FEA9D5D19C4B8430050D5BF /* ItemCollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewModel.swift; sourceTree = "<group>"; };
+		7FEA9D5F19C4B8BD0050D5BF /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		7FEA9D6119C4B96A0050D5BF /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		7FEA9D6719C522C00050D5BF /* TeacherKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TeacherKit.xcdatamodel; sourceTree = "<group>"; };
 		7FEA9D6B19C522FA0050D5BF /* TKSeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKSeat.swift; sourceTree = "<group>"; };
 		7FEA9D6E19C522FC0050D5BF /* TKBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKBehavior.swift; sourceTree = "<group>"; };
@@ -108,6 +111,7 @@
 		7FEA9D8F19C522FE0050D5BF /* TKGradeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKGradeType.swift; sourceTree = "<group>"; };
 		7FEA9D9219C522FE0050D5BF /* TKConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKConfiguration.swift; sourceTree = "<group>"; };
 		7FEA9D9519C522FE0050D5BF /* TKLesson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKLesson.swift; sourceTree = "<group>"; };
+		D143F139534248B6AB3CD6AE /* Pods-TeacherKitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeacherKitTests.xcconfig"; path = "Pods/Pods-TeacherKitTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6685FE13A2475C99FA9C79 /* libPods.a in Frameworks */,
+				37E41D897F05457281A142E2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3CD634439F740359B8A3A39 /* libPods-TeacherKitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +142,7 @@
 				7F4A54B219C37BE700F8759B /* Products */,
 				7AF9C85386AC4A9F9A72BDF9 /* Pods.xcconfig */,
 				B4D5490CD5BC45A0A6406686 /* Frameworks */,
+				D143F139534248B6AB3CD6AE /* Pods-TeacherKitTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -250,7 +256,7 @@
 		7F4A54DE19C382F700F8759B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				7F4A54F019C3843800F8759B /* BKClassCollectionViewController.swift */,
+				7F4A54F019C3843800F8759B /* ClassCollectionViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -258,7 +264,7 @@
 		7F4A54DF19C3830C00F8759B /* Nibs */ = {
 			isa = PBXGroup;
 			children = (
-				7F87436E19C499F500C06E73 /* BKClassCollectionCell.xib */,
+				7F87436E19C499F500C06E73 /* ClassCollectionCell.xib */,
 			);
 			name = Nibs;
 			sourceTree = "<group>";
@@ -266,7 +272,7 @@
 		7F4A54E019C3831300F8759B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7F87437019C49A6800C06E73 /* BKClassCollectionCell.swift */,
+				7F87437019C49A6800C06E73 /* ClassCollectionCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -376,7 +382,7 @@
 			children = (
 				7FEA9D6A19C522E40050D5BF /* Models */,
 				7FEA9D6719C522C00050D5BF /* TeacherKit.xcdatamodel */,
-				7FEA9D6119C4B96A0050D5BF /* BKCoreDataManager.swift */,
+				7FEA9D6119C4B96A0050D5BF /* CoreDataManager.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -384,7 +390,7 @@
 		7F87436819C3A59300C06E73 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				7F87436419C3A57C00C06E73 /* BKViewController.swift */,
+				7F87436419C3A57C00C06E73 /* ViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -392,7 +398,7 @@
 		7F87436919C3A5E100C06E73 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				7FEA9D5F19C4B8BD0050D5BF /* BKManager.swift */,
+				7FEA9D5F19C4B8BD0050D5BF /* Manager.swift */,
 			);
 			name = Managers;
 			sourceTree = "<group>";
@@ -400,8 +406,8 @@
 		7F87436A19C3A5E800C06E73 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				7F87436C19C3A6C400C06E73 /* BKViewModel.swift */,
-				7FEA9D5D19C4B8430050D5BF /* BKItemCollectionViewModel.swift */,
+				7F87436C19C3A6C400C06E73 /* ViewModel.swift */,
+				7FEA9D5D19C4B8430050D5BF /* ItemCollectionViewModel.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -444,7 +450,7 @@
 		7FEA9D5919C4B5740050D5BF /* Datasources */ = {
 			isa = PBXGroup;
 			children = (
-				7FEA9D5B19C4B5910050D5BF /* BKCollectionViewDataSource.swift */,
+				7FEA9D5B19C4B5910050D5BF /* CollectionViewDataSource.swift */,
 			);
 			name = Datasources;
 			sourceTree = "<group>";
@@ -481,7 +487,9 @@
 		B4D5490CD5BC45A0A6406686 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7FCBA38919C52E440040481C /* libPods.a */,
 				7D70BCCA889E44B8B1C6326B /* libPods.a */,
+				45993150B951487B861EBBB0 /* libPods-TeacherKitTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -512,9 +520,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F4A54D519C37BE700F8759B /* Build configuration list for PBXNativeTarget "TeacherKitTests" */;
 			buildPhases = (
+				C4D6FB407F1D4CDB81A2D631 /* Check Pods Manifest.lock */,
 				7F4A54C419C37BE700F8759B /* Sources */,
 				7F4A54C519C37BE700F8759B /* Frameworks */,
 				7F4A54C619C37BE700F8759B /* Resources */,
+				D3FE135509224C92B2356840 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -569,7 +579,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F4A54BE19C37BE700F8759B /* Main.storyboard in Resources */,
-				7F87436F19C499F500C06E73 /* BKClassCollectionCell.xib in Resources */,
+				7F87436F19C499F500C06E73 /* ClassCollectionCell.xib in Resources */,
 				7F4A54C319C37BE700F8759B /* LaunchScreen.xib in Resources */,
 				7F4A54C019C37BE700F8759B /* Images.xcassets in Resources */,
 			);
@@ -615,6 +625,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C4D6FB407F1D4CDB81A2D631 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3FE135509224C92B2356840 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-TeacherKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -623,32 +663,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FEA9D8D19C522FE0050D5BF /* TKStudent.swift in Sources */,
-				7FEA9D6019C4B8BD0050D5BF /* BKManager.swift in Sources */,
+				7FEA9D6019C4B8BD0050D5BF /* Manager.swift in Sources */,
 				7FEA9D8119C522FD0050D5BF /* TKAttachment.swift in Sources */,
-				7F87436519C3A57C00C06E73 /* BKViewController.swift in Sources */,
+				7F87436519C3A57C00C06E73 /* ViewController.swift in Sources */,
 				7FEA9D7B19C522FD0050D5BF /* TKBehaviorType.swift in Sources */,
 				7FEA9D9319C522FE0050D5BF /* TKConfiguration.swift in Sources */,
 				7F4A54BB19C37BE700F8759B /* SecondViewController.swift in Sources */,
 				7FEA9D8719C522FD0050D5BF /* TKAttendanceType.swift in Sources */,
 				7FEA9D9019C522FE0050D5BF /* TKGradeType.swift in Sources */,
-				7FEA9D6219C4B96A0050D5BF /* BKCoreDataManager.swift in Sources */,
+				7FEA9D6219C4B96A0050D5BF /* CoreDataManager.swift in Sources */,
 				7F4A54B719C37BE700F8759B /* AppDelegate.swift in Sources */,
 				7FEA9D8419C522FD0050D5BF /* TKAttendance.swift in Sources */,
-				7F4A54F119C3843800F8759B /* BKClassCollectionViewController.swift in Sources */,
+				7F4A54F119C3843800F8759B /* ClassCollectionViewController.swift in Sources */,
 				7FEA9D6F19C522FC0050D5BF /* TKBehavior.swift in Sources */,
 				7FEA9D6C19C522FA0050D5BF /* TKSeat.swift in Sources */,
-				7FEA9D5C19C4B5910050D5BF /* BKCollectionViewDataSource.swift in Sources */,
+				7FEA9D5C19C4B5910050D5BF /* CollectionViewDataSource.swift in Sources */,
 				7FEA9D7519C522FC0050D5BF /* TKAccessCode.swift in Sources */,
 				7F4A54B919C37BE700F8759B /* FirstViewController.swift in Sources */,
 				7FEA9D9619C522FE0050D5BF /* TKLesson.swift in Sources */,
 				7FEA9D8A19C522FD0050D5BF /* TKClassroom.swift in Sources */,
 				7FEA9D7819C522FD0050D5BF /* TKGradableItem.swift in Sources */,
-				7FEA9D5E19C4B8430050D5BF /* BKItemCollectionViewModel.swift in Sources */,
-				7F87436D19C3A6C400C06E73 /* BKViewModel.swift in Sources */,
+				7FEA9D5E19C4B8430050D5BF /* ItemCollectionViewModel.swift in Sources */,
+				7F87436D19C3A6C400C06E73 /* ViewModel.swift in Sources */,
 				7FEA9D7219C522FC0050D5BF /* TKGradeCategory.swift in Sources */,
 				7FEA9D6819C522C00050D5BF /* TeacherKit.xcdatamodel in Sources */,
 				7FEA9D7E19C522FD0050D5BF /* TKGrade.swift in Sources */,
-				7F87437119C49A6800C06E73 /* BKClassCollectionCell.swift in Sources */,
+				7F87437119C49A6800C06E73 /* ClassCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,6 +784,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "TeacherKit/TeacherKit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -780,6 +821,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "TeacherKit/TeacherKit-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -791,9 +833,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TeacherKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TeacherKit/TeacherKit-Bridging-Header.h";
 			};
@@ -805,9 +855,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TeacherKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TeacherKit/TeacherKit-Bridging-Header.h";
 			};
@@ -815,6 +873,7 @@
 		};
 		7F4A54D619C37BE700F8759B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D143F139534248B6AB3CD6AE /* Pods-TeacherKitTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -827,6 +886,10 @@
 				);
 				INFOPLIST_FILE = TeacherKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeacherKit.app/TeacherKit";
 			};
@@ -834,6 +897,7 @@
 		};
 		7F4A54D719C37BE700F8759B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D143F139534248B6AB3CD6AE /* Pods-TeacherKitTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -842,6 +906,10 @@
 				);
 				INFOPLIST_FILE = TeacherKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeacherKit.app/TeacherKit";
 			};

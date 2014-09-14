@@ -1,5 +1,5 @@
 //
-//  BKItemCollectionViewModel.swift
+//  ItemCollectionViewModel.swift
 //  TeacherKit
 //
 //  Created by Ramy Medhat on 2014-09-13.
@@ -8,6 +8,6 @@
 
 import UIKit
 
-class BKItemCollectionViewModel: BKViewModel {
+class ItemCollectionViewModel: ViewModel {
    
 }

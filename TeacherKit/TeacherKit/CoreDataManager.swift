@@ -1,5 +1,5 @@
 //
-//  BKCoreDataManager.swift
+//  CoreDataManager.swift
 //  TeacherKit
 //
 //  Created by Ramy Medhat on 2014-09-13.
@@ -9,18 +9,18 @@
 import UIKit
 import CoreData
 
-class BKCoreDataManager: NSObject {
+class CoreDataManager: NSObject {
     private var rootContext : NSManagedObjectContext
     
     // MARK: - Initialization
     
     struct Static {
         static var token : dispatch_once_t = 0
-        static var instance : BKCoreDataManager?
+        static var instance : CoreDataManager?
     }
     
-    class var instance: BKCoreDataManager {
-    dispatch_once(&Static.token) {  Static.instance = BKCoreDataManager() }
+    class var instance: CoreDataManager {
+    dispatch_once(&Static.token) {  Static.instance = CoreDataManager() }
         return Static.instance!
     }
     

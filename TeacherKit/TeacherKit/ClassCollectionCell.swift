@@ -1,5 +1,5 @@
 //
-//  BKClassCollectionCell.swift
+//  ClassCollectionCell.swift
 //  TeacherKit
 //
 //  Created by Ramy Medhat on 2014-09-13.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BKClassCollectionCell: UICollectionViewCell {
+class ClassCollectionCell: UICollectionViewCell {
     @IBOutlet weak private var imageView: UIImageView!
     @IBOutlet weak private var titleLabel: UILabel!
     @IBOutlet weak private var codeLabel: UILabel!

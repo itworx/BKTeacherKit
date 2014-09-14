@@ -1,5 +1,5 @@
 //
-//  BKViewModel.swift
+//  ViewModel.swift
 //  TeacherKit
 //
 //  Created by Ramy Medhat on 2014-09-12.
@@ -8,10 +8,10 @@
 
 import UIKit
 
-class BKViewModel: NSObject {
-    var manager : BKManager
+class ViewModel: NSObject {
+    var manager : Manager
     
-    init(aManager: BKManager) {
+    init(aManager: Manager) {
         manager = aManager
     }
     

@@ -1,5 +1,5 @@
 //
-//  BKCollectionViewDataSource.swift
+//  CollectionViewDataSource.swift
 //  TeacherKit
 //
 //  Created by Ramy Medhat on 2014-09-13.
@@ -8,10 +8,10 @@
 
 import UIKit
 
-class BKCollectionViewDataSource: NSObject, UICollectionViewDataSource {
-    private weak var viewModel : BKViewModel?
+class CollectionViewDataSource: NSObject, UICollectionViewDataSource {
+    private weak var viewModel : ViewModel?
     
-    init(aViewModel: BKViewModel) {
+    init(aViewModel: ViewModel) {
         viewModel = aViewModel
     }
         

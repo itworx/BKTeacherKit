@@ -1,5 +1,5 @@
 //
-//  BKClassCollectionViewController.swift
+//  ClassCollectionViewController.swift
 //  TeacherKit
 //
 //  Created by Ramy Medhat on 2014-09-12.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BKClassCollectionViewController: BKViewController {
+class ClassCollectionViewController: ViewController {
     @IBOutlet weak var collectionView: UICollectionView!
 
     override func initializeUI() {

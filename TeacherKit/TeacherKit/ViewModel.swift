@@ -9,11 +9,5 @@
 import UIKit
 
 class ViewModel: NSObject {
-    var manager : Manager
-    
-    init(aManager: Manager) {
-        manager = aManager
-    }
-    
     
 }

@@ -44,6 +44,13 @@ class CoreDataManager: NSObject {
     // MARK: - Core Data Stack
     
     func initializeCoreData() {
+        if (NSPersistentStoreCoordinator.MR_defaultStoreCoordinator() != nil) {
+            return
+        }
         
+        var model = NSManagedObjectModel.MR_newModelNamed("TeacherKit.momd", inBundleNamed: "")
+        NSManagedObjectModel.MR_setDefaultManagedObjectModel(model)
+        
+//        var psc = NSPersistentStoreCoordinator(managedObjectModel: <#NSManagedObjectModel#>)
     }
 }

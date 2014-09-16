@@ -10,4 +10,7 @@ import UIKit
 
 class ItemCollectionViewModel: ViewModel {
    
+    func viewModelAtIndexPath(indexPath: NSIndexPath) -> ViewModel {
+        return ViewModel()
+    }
 }

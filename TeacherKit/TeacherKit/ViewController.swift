@@ -46,7 +46,6 @@ class ViewController: UIViewController {
     Wire view model signals to the UI.
     */
     func wireViewModel() {
-        assert(self.viewModel != nil, "View Model cannot be nil")
         
     }
     
@@ -54,7 +53,6 @@ class ViewController: UIViewController {
     Connects and handles view model commands.
     */
     func setupCommands() {
-        assert(self.viewModel != nil, "View Model cannot be nil")
         
     }
 

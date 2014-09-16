@@ -16,10 +16,15 @@
 		7F4A54C319C37BE700F8759B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F4A54C119C37BE700F8759B /* LaunchScreen.xib */; };
 		7F4A54CF19C37BE700F8759B /* TeacherKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A54CE19C37BE700F8759B /* TeacherKitTests.swift */; };
 		7F4A54F119C3843800F8759B /* ClassCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A54F019C3843800F8759B /* ClassCollectionViewController.swift */; };
+		7F51352119C55D2B00046EBC /* ClassCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51352019C55D2B00046EBC /* ClassCollectionViewLayout.swift */; };
 		7F87436519C3A57C00C06E73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87436419C3A57C00C06E73 /* ViewController.swift */; };
 		7F87436D19C3A6C400C06E73 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87436C19C3A6C400C06E73 /* ViewModel.swift */; };
 		7F87436F19C499F500C06E73 /* ClassCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F87436E19C499F500C06E73 /* ClassCollectionCell.xib */; };
 		7F87437119C49A6800C06E73 /* ClassCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87437019C49A6800C06E73 /* ClassCollectionCell.swift */; };
+		7FCBA39219C546360040481C /* DataSourceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCBA39119C546360040481C /* DataSourceFactory.swift */; };
+		7FCBA39419C546680040481C /* BasicConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCBA39319C546680040481C /* BasicConstants.swift */; };
+		7FCBA39619C546AE0040481C /* ClassCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCBA39519C546AE0040481C /* ClassCollectionViewDataSource.swift */; };
+		7FCBA39819C546E90040481C /* MockClassCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCBA39719C546E90040481C /* MockClassCollectionViewDataSource.swift */; };
 		7FEA9D5C19C4B5910050D5BF /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D5B19C4B5910050D5BF /* CollectionViewDataSource.swift */; };
 		7FEA9D5E19C4B8430050D5BF /* ItemCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D5D19C4B8430050D5BF /* ItemCollectionViewModel.swift */; };
 		7FEA9D6019C4B8BD0050D5BF /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA9D5F19C4B8BD0050D5BF /* Manager.swift */; };
@@ -69,6 +74,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7FD6678319C56B1D00C2862F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		45993150B951487B861EBBB0 /* libPods-TeacherKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TeacherKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF9C85386AC4A9F9A72BDF9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -85,12 +103,17 @@
 		7F4A54CD19C37BE700F8759B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F4A54CE19C37BE700F8759B /* TeacherKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherKitTests.swift; sourceTree = "<group>"; };
 		7F4A54F019C3843800F8759B /* ClassCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassCollectionViewController.swift; sourceTree = "<group>"; };
+		7F51352019C55D2B00046EBC /* ClassCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassCollectionViewLayout.swift; sourceTree = "<group>"; };
 		7F87436419C3A57C00C06E73 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7F87436C19C3A6C400C06E73 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		7F87436E19C499F500C06E73 /* ClassCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassCollectionCell.xib; sourceTree = "<group>"; };
 		7F87437019C49A6800C06E73 /* ClassCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassCollectionCell.swift; sourceTree = "<group>"; };
 		7FCBA37B19C5254A0040481C /* TeacherKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeacherKit-Bridging-Header.h"; sourceTree = "<group>"; };
 		7FCBA38919C52E440040481C /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		7FCBA39119C546360040481C /* DataSourceFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceFactory.swift; sourceTree = "<group>"; };
+		7FCBA39319C546680040481C /* BasicConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicConstants.swift; sourceTree = "<group>"; };
+		7FCBA39519C546AE0040481C /* ClassCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		7FCBA39719C546E90040481C /* MockClassCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockClassCollectionViewDataSource.swift; sourceTree = "<group>"; };
 		7FEA9D5B19C4B5910050D5BF /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
 		7FEA9D5D19C4B8430050D5BF /* ItemCollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewModel.swift; sourceTree = "<group>"; };
 		7FEA9D5F19C4B8BD0050D5BF /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
@@ -287,6 +310,8 @@
 		7F4A54E219C3834D00F8759B /* Datasources */ = {
 			isa = PBXGroup;
 			children = (
+				7FCBA39519C546AE0040481C /* ClassCollectionViewDataSource.swift */,
+				7FCBA39719C546E90040481C /* MockClassCollectionViewDataSource.swift */,
 			);
 			name = Datasources;
 			sourceTree = "<group>";
@@ -377,6 +402,13 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
+		7F51352219C565E100046EBC /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Themes;
+			sourceTree = "<group>";
+		};
 		7F87436619C3A58200C06E73 /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -427,6 +459,7 @@
 		7F87437219C49FE400C06E73 /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
+				7F51352019C55D2B00046EBC /* ClassCollectionViewLayout.swift */,
 			);
 			name = Layouts;
 			sourceTree = "<group>";
@@ -434,6 +467,9 @@
 		7FCBA37919C525160040481C /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				7F51352219C565E100046EBC /* Themes */,
+				7FCBA39019C546230040481C /* Factories */,
+				7FCBA38D19C5457B0040481C /* Constants */,
 				7FCBA37A19C5251D0040481C /* BridgingHeader */,
 			);
 			name = Utilities;
@@ -445,6 +481,22 @@
 				7FCBA37B19C5254A0040481C /* TeacherKit-Bridging-Header.h */,
 			);
 			name = BridgingHeader;
+			sourceTree = "<group>";
+		};
+		7FCBA38D19C5457B0040481C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				7FCBA39319C546680040481C /* BasicConstants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		7FCBA39019C546230040481C /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				7FCBA39119C546360040481C /* DataSourceFactory.swift */,
+			);
+			name = Factories;
 			sourceTree = "<group>";
 		};
 		7FEA9D5919C4B5740050D5BF /* Datasources */ = {
@@ -506,6 +558,7 @@
 				7F4A54AE19C37BE700F8759B /* Frameworks */,
 				7F4A54AF19C37BE700F8759B /* Resources */,
 				96614D8F7C3D42069EEDA91B /* Copy Pods Resources */,
+				7FD6678319C56B1D00C2862F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -666,7 +719,9 @@
 				7FEA9D6019C4B8BD0050D5BF /* Manager.swift in Sources */,
 				7FEA9D8119C522FD0050D5BF /* TKAttachment.swift in Sources */,
 				7F87436519C3A57C00C06E73 /* ViewController.swift in Sources */,
+				7FCBA39619C546AE0040481C /* ClassCollectionViewDataSource.swift in Sources */,
 				7FEA9D7B19C522FD0050D5BF /* TKBehaviorType.swift in Sources */,
+				7FCBA39419C546680040481C /* BasicConstants.swift in Sources */,
 				7FEA9D9319C522FE0050D5BF /* TKConfiguration.swift in Sources */,
 				7F4A54BB19C37BE700F8759B /* SecondViewController.swift in Sources */,
 				7FEA9D8719C522FD0050D5BF /* TKAttendanceType.swift in Sources */,
@@ -675,17 +730,20 @@
 				7F4A54B719C37BE700F8759B /* AppDelegate.swift in Sources */,
 				7FEA9D8419C522FD0050D5BF /* TKAttendance.swift in Sources */,
 				7F4A54F119C3843800F8759B /* ClassCollectionViewController.swift in Sources */,
+				7FCBA39219C546360040481C /* DataSourceFactory.swift in Sources */,
 				7FEA9D6F19C522FC0050D5BF /* TKBehavior.swift in Sources */,
 				7FEA9D6C19C522FA0050D5BF /* TKSeat.swift in Sources */,
 				7FEA9D5C19C4B5910050D5BF /* CollectionViewDataSource.swift in Sources */,
 				7FEA9D7519C522FC0050D5BF /* TKAccessCode.swift in Sources */,
 				7F4A54B919C37BE700F8759B /* FirstViewController.swift in Sources */,
+				7F51352119C55D2B00046EBC /* ClassCollectionViewLayout.swift in Sources */,
 				7FEA9D9619C522FE0050D5BF /* TKLesson.swift in Sources */,
 				7FEA9D8A19C522FD0050D5BF /* TKClassroom.swift in Sources */,
 				7FEA9D7819C522FD0050D5BF /* TKGradableItem.swift in Sources */,
 				7FEA9D5E19C4B8430050D5BF /* ItemCollectionViewModel.swift in Sources */,
 				7F87436D19C3A6C400C06E73 /* ViewModel.swift in Sources */,
 				7FEA9D7219C522FC0050D5BF /* TKGradeCategory.swift in Sources */,
+				7FCBA39819C546E90040481C /* MockClassCollectionViewDataSource.swift in Sources */,
 				7FEA9D6819C522C00050D5BF /* TeacherKit.xcdatamodel in Sources */,
 				7FEA9D7E19C522FD0050D5BF /* TKGrade.swift in Sources */,
 				7F87437119C49A6800C06E73 /* ClassCollectionCell.swift in Sources */,

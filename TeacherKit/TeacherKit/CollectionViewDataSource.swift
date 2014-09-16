@@ -9,18 +9,32 @@
 import UIKit
 
 class CollectionViewDataSource: NSObject, UICollectionViewDataSource {
-    private weak var viewModel : ViewModel?
+    private var viewModel : ItemCollectionViewModel
+    private var cellIdentifier : String
     
-    init(aViewModel: ViewModel) {
-        viewModel = aViewModel
+    init(fromCellIdentifier cellIdentifier: String, viewModel: ItemCollectionViewModel) {
+        self.viewModel = viewModel
+        self.cellIdentifier = cellIdentifier
     }
-        
+    
+    // MARK: - Overridable functions
+    
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 0
+        return 10
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        return UICollectionViewCell()
+        var cell = collectionView.dequeueReusableCellWithReuseIdentifier(self.cellIdentifier, forIndexPath: indexPath) as UICollectionViewCell
+        var cellViewModel = self.viewModel.viewModelAtIndexPath(indexPath)
+        self.configureCell(cell, cellViewModel: cellViewModel)
+        return cell
     }
     
+    func configureCell(collectionViewCell: UICollectionViewCell, cellViewModel: ViewModel) {
+        
+    }
 }

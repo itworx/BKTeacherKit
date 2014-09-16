@@ -10,16 +10,25 @@ import UIKit
 
 class ClassCollectionViewController: ViewController {
     @IBOutlet weak var collectionView: UICollectionView!
+    var dataSource : CollectionViewDataSource!
 
     override func initializeUI() {
         super.initializeUI()
         
+        self.viewModel = ItemCollectionViewModel()
+        
         // Setup collection view
+        var cellIdentifier = "ClassCollectionCell"
+        self.collectionView.registerNib(UINib(nibName: "ClassCollectionCell", bundle: NSBundle.mainBundle()), forCellWithReuseIdentifier: cellIdentifier)
+        
+        self.dataSource = DataSourceFactory.classCollectionViewDataSource(fromCellIdentifier: cellIdentifier, viewModel: self.viewModel as ItemCollectionViewModel)
+        self.collectionView.dataSource = self.dataSource
+        
+        self.collectionView.collectionViewLayout = ClassCollectionViewLayout()
     }
     
     override func finalizeUI() {
         super.finalizeUI()
-        
     }
     
     override func wireViewModel() {
